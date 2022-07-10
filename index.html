@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Typing Speed Test</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="game">
+    <section class="game__intro">
+      <div class="game__title">Typing Speed Test</div>
+      <div class="container">
+        <h2>Chose Your Level: </h2>
+        <ul class="levels__container">
+          <li>Level 1</li>
+          <li>Level 2</li>
+          <li>Level 3</li>
+        </ul>
+      </div>
+    </section>
+    <section style="display: none;" class="game__play">
+      <div class="game__title">
+        <span>Typing Speed Test</span>
+        <div class="game__info">
+          <div class="home">H</div>
+          <div class="levels">Level (1)</div>
+        </div>
+      </div>
+      <div class="game__word">
+        <div class="word">Beutifull</div>
+        <input type="text" name="word">
+        <div class="upcomming__word"></div>
+      </div>
+      <div class="game__control">
+        <div class="time">Total Time <span>0</span> Seconds</div>
+        <div class="error"> 
+          Error Count: <span>0</span>
+        </div>
+      </div>
+    </section>
+    <div class="successful">
+      <div class="message">
+        <h1>You Are Winning!</h1>
+        <div class="count">
+          Your Typing Speed is: <span>25</span> Words Per Minutes. 
+        </div>
+        <div class="buttons">
+          <div class="menu">M</div>
+          <div class="reload">R</div>
+          <div class="next">N</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="js/main.js"></script>
+</body>
+</html>
